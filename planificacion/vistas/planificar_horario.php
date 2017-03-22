@@ -114,14 +114,152 @@
         </tr>
 
         <tr>
-          <td>07:00-07:45</td>
-          <td>".$row[1]."</td>
-          <td>".$row[2]."</td>
-          <td>".$row[3]."</td>
-          <td>".$row[4]."</td>          
+          <td>07:00 - 07:45 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>           
         </tr>
-       
+
+        <tr>
+          <td>07:45 - 8:30 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>            
+        </tr>
+                <tr>
+          <td>8:30 - 9:15 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>           
+        </tr>
+                <tr>
+          <td>9:15 - 10:00 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>           
+        </tr>
+                <tr>
+          <td>10:00 - 10:45 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>             
+        </tr>
+                <tr>
+          <td>10:45 - 11:30 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>             
+        </tr>
+                <tr>
+          <td>11:30 - 12:15 AM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>             
+        </tr>
+
+                        <tr>
+          <td>12:15 - 1:00 PM</td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td>
+          <td contenteditable='true'></td> 
+          <td contenteditable='true'></td>             
+        </tr>
+</table>
+<br><br><br>
+
+ <table class="table table-striped table-bordered table-hover">
+        <tr>
+          <th class="col-md-1">Horario</th>
+          <th class="col-md-1">Lunes</th>
+          <th class="col-md-1">Martes</th>
+          <th class="col-md-1">Miercoles</th>
+          <th class="col-md-1">Jueves</th>
+          <th class="col-md-1">Viernes</th>
+        
+
+        </tr>
+
+
+
+                        <tr>
+          <td>1:00 - 1:45 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>           
+        </tr>
+                        <tr>
+          <td>1:45 - 2:30 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>             
+        </tr>
+                        <tr>
+          <td>2:30 - 3:15 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>            
+        </tr>
+
+                                <tr>
+          <td>3:15 - 4:00 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>             
+        </tr>
+
+                                <tr>
+          <td>4:45 - 5:30 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>            
+        </tr>
+
+                                <tr>
+          <td>5:30 - 6:15 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>            
+        </tr>
+
+                                <tr>
+          <td>6:15 - 7:00 PM</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td> 
+          <td></td>              
+        </tr>
+
+
        </table>
+       
     </div>
   </section>
 <style>
