@@ -99,7 +99,7 @@
 	
 	</header>
      	
-	<section id="contenedor" class="container">
+	<section id="contenedor" class="container"><br><br>
 	<h1>¡Bienvenido! <?php echo $_SESSION['nombre_usuario']."."; ?> </h1><br>
 		<dev id="banner">
        <img src="imagenes/portada.jpg" alt="UPTOS Cumana" class="container">
