@@ -83,7 +83,7 @@
 						<li class="dropdown">
 							<a href="#" onclick="call_view('vistas/departamento.php')" class="dropdown-toggle" data-toggle="dropdown">Departamentos </a>
 						</li>
-					</ul><?php if(isset($_SESSION['tipo_coordinador']))
+					<?php if(isset($_SESSION['tipo_coordinador']))
                             { if($_SESSION['tipo_coordinador']=="2" ){
                               echo "-->";
                             }   } ?>
@@ -91,8 +91,8 @@
 
 				    
 	      				
-	      				<li id="cerrar"  class="nav navbar-nav navbar-right"><a href='#' onClick="CerrarSesion();"><span class="glyphicon glyphicon-off" ></span> Cerrar Sesion</a></li>
-	    			
+	      				<li id="cerrar"  ><a href='#' onClick="CerrarSesion();"><span class="glyphicon glyphicon-off" ></span> Cerrar Sesion</a></li>
+	    			</ul>
 				</div>
 			</nav>
 		</section>
