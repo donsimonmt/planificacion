@@ -106,7 +106,7 @@
 		</dev>
 	</section>
 
-	<footer class="navbar navbar-default navbar-bottom navbar-fixed-bottom" 
+	<footer class="navbar navbar-default navbar-bottom navbar-fixed-bottom"> 
 		<p>Universidad Politécnica Territorial del Oeste de Sucre "Clodosbaldo Russián", Km.4 Carretera Cumaná - Cumanacoa 
 		Tlf(s): (0293) 4672138 / 4672136 / 4672150 / 4672154 Fax (0293) 4672153 - Rif: G-20010205-5 </p>
 	</footer>	
