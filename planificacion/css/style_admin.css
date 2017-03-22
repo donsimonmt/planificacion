@@ -73,14 +73,14 @@ body{
 
 
 
-#navegador ul {
+#navegador ul  {
 	float: left;
 
 }
 
 #cerrar{
 float: right;
-position: relative;
+
 
 }
 
@@ -88,8 +88,6 @@ ul{
 	display: inline-block;
 	width: 100%;
 	
+	
 }
-
-
-
 
