@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+tr{
+	background: #D6DFEE;
+}
+#imagen{
+	width: 80%;
+	margin: auto;
+}
+
+#imagen img{
+	width: 100%;
+	height: 45px;
+}
+
+#Eventos{
+	width: 80%;
+	margin: auto;
+}
+li{
+	list-style: none;
+	padding: 0.2em;
+
+}
+a{
+	text-decoration: none;
+
+}
+
+#navegador{
+	width: 80%;
+	margin: auto;
+
+	
+
+}

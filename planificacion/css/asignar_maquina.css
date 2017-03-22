@@ -1,0 +1,33 @@
+#maquinas{
+	padding: 1em;
+	width: 50%;
+	margin: auto;
+}
+#imagen{
+	width: 80%;
+	margin: auto;
+}
+
+#imagen img{
+	width: 100%;
+	height: 45px;
+}
+li{
+	list-style: none;
+	padding: 0.2em;
+
+
+}
+a{
+	text-decoration: none;
+
+}
+
+
+#navegador{
+	width: 80%;
+	margin: auto;
+
+	
+
+}

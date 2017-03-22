@@ -1,0 +1,251 @@
+
+body{ font-family: Verdana; }
+
+input[type="text"]{
+	padding: 7px;
+	border-radius: 6px;
+	text-transform: capitalize;
+}
+input[type="text"]:focus{
+		border-color: skyblue;
+}
+#cpAsignar{
+	position: fixed;
+	border: 2px solid #00A;
+	border-radius: 10px;
+	padding: 25px;
+	cursor: pointer;
+	background-color: skyblue;
+}
+
+#cpAsignar:hover{
+	background-color: #ccc;
+}
+
+#btn_options{
+	float: right;
+	cursor: pointer;
+}
+#cpEquipos{
+	width: auto;
+	margin: 0 35.8% 0 30%;
+}
+
+.tituloEquipos{
+	background-color: #337ab7;
+	font-weight: bold;
+	font-size: 16;
+	color: white;
+	padding: 13px;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+}
+
+/*#cpEquipos{
+	position: relative;
+	float: left;
+	width: auto;
+}
+
+.tituloEquipos{
+	background-color: #EEEEEE;
+	font-weight: bold;
+	font-size: 16;
+	color: black;
+	padding: 13px;
+	border-radius: 10px 10px 0 0;
+}*/
+
+.tituloEquipos:hover{
+	cursor: pointer;
+}
+
+#listadoEquipos, #content_usuario{
+	border: 1px solid #ccc;
+}
+
+.no_disponible, .disponible, .desincorporado{
+	cursor: pointer;
+	font-size: 26pt;
+	font-weight: bold;
+	padding: 10px 25px 10px 25px;
+	position: relative;
+}
+.disponible{
+	color: #0A0;
+}
+
+.no_disponible{
+	color: #ED0731;
+}
+
+ .desincorporado{
+ 	color: #CCC;
+ }
+
+.celdaEquipos{
+	margin: 5px;
+	border-radius: 10px;
+	border: 2px solid #ccc;
+	cursor: pointer;
+
+}
+
+.detallesEquipo, .temporizador{
+	position: relative;
+	opacity: 0.7;
+	max-height: 20px;
+	background-color: #000;
+	z-index: 999;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}
+.detallesEquipo{
+	border-radius: 0 0 10px 10px;
+	margin-bottom: 0px;
+}
+.temporizador{
+	padding: 5px 0 5px 0;
+	font-weight: bold;
+	margin-top: 0px;
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 10px;
+	padding: 0px 0px 0px 10px;
+}
+
+.tnaranja{
+	background-color: #ED6E07;
+	color: #FFF;
+}
+
+.trojo{
+	background-color: #FB0B37;
+	color: #F9F908;
+	opacity: 0.9;
+}
+
+.tamarillo{
+	background-color: #F9F908;
+	color: #000;
+}
+#detallesPrestamo{
+	width: 58%;
+	z-index: 10999;
+	position: absolute;
+	height: auto;
+	margin: -20% 0 0 20%;
+	background-color: #FFF;
+	border-radius: 10px 10px 0 0;
+}
+
+#content_usuario{
+	position: relative;
+	padding: 10px;
+	width: 100%;
+}
+
+/*#detallesPrestamo{
+	width: 50%;
+	float: right;
+	position: relative;
+
+}
+
+#content_usuario{
+	position: absolute;
+	padding: 20px;
+	width: 100%;
+}*/
+
+#detalles_usuario, #detalles_equipo{
+	width: 100%;
+	position: relative;
+}
+
+/*#detalles_usuario{
+	float: left;
+}
+#detalles_equipo{
+	float: right;
+}
+*/
+.renglon{
+	max-width:auto;
+	margin: 5px 0 5px 0;
+	padding: 10px;
+	background-color: #FAFAFA;
+}
+
+.renglon:hover{
+	background-color: #ECF7F1;
+	cursor: pointer;
+}
+
+.encabezado{
+	text-align: center;
+	background-color: #26AFF8;
+	color:#FFF;
+	padding: 10px 0 10px 0;
+	font-weight: bold;
+}
+
+#btns{
+	padding: 15px 15px 0 15px;
+	border-top: 1px solid #ccc;
+	text-align: right;
+	margin-top: 10px;
+}
+
+#btns button{
+	padding: 5px 20px 5px 20px;
+	background-color: #ccc;
+}
+
+#btns button:hover{
+	background-color: #4D71E8;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#cpModal{
+	position:fixed;
+	opacity: 0.5;
+	background:#000;
+	color:#CCC;
+	top:0px;
+	left:0px;
+	display:none;
+	width:100%;
+	height:100%;
+	z-index: 10000;
+}
+.btn_eliminar{
+	color: #F00;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Arial;
+	background: #FFF;
+	border-radius: 8px;
+}
+
+.btn_eliminar:hover{
+	cursor: pointer;
+	background: #F00;
+	color: #FFF;
+}
+
+.lista_items{
+	background-color: #186EB4;
+	padding:7px;
+	color: #ffffff;
+	font-weight: bold;
+	border-right:1px solid #186EB4;
+	border-left:1px solid #186EB4;
+	cursor: pointer;
+	height: 8px;
+}
+
+.borde_abajo{
+	border-bottom: 1px solid #186EB4;
+}
