@@ -18,6 +18,12 @@ foreach ($_REQUEST as $NombreCampo => $Valor) {
        		 	else $resp=$json->encode($respuesta);
         		echo $resp;
  			break;
+ 			case 'buscaModulo':
+			$modulo=new modulo();
+			$Salida=$modulo->buscaModulo($cod_mod);
+			if(!is_array($Salida)) echo $json->encode(0);
+			else echo $json->encode($Salida);
+		break;
 
  		}
 
