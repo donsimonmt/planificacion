@@ -11,5 +11,11 @@
   		$salon= new SALON();
   		echo $salon->registrar($cod_salon,$nom_salon,$mod_salon,$cap_salon,$tipo_salon);
   	break;
+    case 'BuscaSalon':
+      $salon=new SALON();
+      $salida = $salon->BuscaSalon($cod_salon);
+      if(!is_array($salida)) echo $json->encode(0);
+      else echo $json->encode($salida);
+      break;
   }
 ?>
